@@ -23,5 +23,9 @@ main {
 
 .image {
   border: 1px solid green;
-  width: fit-content;
+}
+
+.product-info{
+  border: 1px solid blue;
+  background-color: hsl(0, 0%, 100%);
 }
