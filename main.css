@@ -18,9 +18,11 @@ body {
   margin-top: 150px;
   display: flex;
   width: 50%;
+  height: 500px;
 }
 
 .image{
   display: flex ;
   justify-content: left;
+
 }
