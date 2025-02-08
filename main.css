@@ -25,7 +25,7 @@ body {
 .image {
   display: flex;
   justify-content: left;
-  width: 370px;
+  width: 350px;
   height: 500px;
   overflow: hidden;
 }
