@@ -13,6 +13,9 @@ body {
 }
 
 main {
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  font-style: normal;
   display: flex;
   border: 1px solid red;
   margin-left: 27%;
@@ -30,4 +33,8 @@ main {
   background-color: hsl(0, 0%, 100%);
   padding-top: 30px;
   padding-inline: 40px;
+}
+
+h3{
+
 }
