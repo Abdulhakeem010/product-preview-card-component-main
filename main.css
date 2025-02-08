@@ -13,10 +13,16 @@ html {
 }
 
 body {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-left: 30%;
   margin-top: 150px;
-  width: 50%;
+  width: 100px;
   height: 500px;
   border-radius: 20px;
+}
+
+.image{
+  border-radius:20px;
+  border: 1px solid green;
+
 }
