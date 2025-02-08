@@ -8,21 +8,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap");
 
-html {
+body {
   background-color: hsl(30, 38%, 92%);
 }
 
 main {
   display: flex;
-  flex-direction: row;
-  display: inline-block;
   border: 1px solid red;
   margin-left: 30%;
   margin-top: 150px;
-  /* width: 1000px;
-  height: 500px; */
-  /* width: fit-content;
-  height: fit-content; */
+  height: fit-content;
+  width: 50%;
 }
 
 .image {
