@@ -12,17 +12,20 @@ html {
   background-color: hsl(30, 38%, 92%);
 }
 
-body {
-  /* border: 1px solid red; */
+main {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  border: 1px solid red;
   margin-left: 30%;
   margin-top: 150px;
-  width: 100px;
-  height: 500px;
-  border-radius: 20px;
+  /* width: 1000px;
+  height: 500px; */
+  /* width: fit-content;
+  height: fit-content; */
 }
 
-.image{
-  border-radius:20px;
+.image {
   border: 1px solid green;
-
+  width: fit-content;
 }
