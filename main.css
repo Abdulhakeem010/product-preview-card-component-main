@@ -61,11 +61,16 @@ h1 {
 
 .price {
   border: 1px solid black;
+  margin-bottom: 30px;
 }
 
 .product-discount-price {
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-style: normal;
+  border: 1px solid black;
+}
+
+.product-price{
   border: 1px solid black;
 }
