@@ -73,4 +73,7 @@ h1 {
 
 .product-price{
   border: 1px solid black;
+  text-decoration: line-through;
 }
+
+
