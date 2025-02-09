@@ -92,16 +92,10 @@ button {
 }
 
 .button-text {
-  /* display: inline-block; */
-  /* margin: 5px; */
   border: 1px solid black;
-
-
 }
 
 .cart-icon{
   border: 1px solid red;
-  text-align: center;
   justify-content: center;
-  align-items: center;
 }
