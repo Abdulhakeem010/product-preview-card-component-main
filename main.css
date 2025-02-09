@@ -30,15 +30,15 @@ main {
   border-radius: 20px 0px 0px 20px;
 }
 
-.product-info{
+.product-info {
   border: 1px solid blue;
   background-color: hsl(0, 0%, 100%);
   padding-top: 30px;
   padding-inline: 40px;
- border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 20px 20px 0px;
 }
 
-h2{
+h2 {
   font-family: "Montserrat", serif;
   font-weight: 500;
   font-style: normal;
@@ -46,22 +46,26 @@ h2{
   margin-bottom: 25px;
 }
 
-h1{
-border: 1px solid black;
-margin-bottom: 30px;
-font-family: "Fraunces", serif;
-font-weight: 700;
-font-style: normal;
-}
-
-.product-description{
+h1 {
   border: 1px solid black;
   margin-bottom: 30px;
-}
-
-.product-discount-price{
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-style: normal;
 }
 
+.product-description {
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.price {
+  border: 1px solid black;
+}
+
+.product-discount-price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-style: normal;
+  border: 1px solid black;
+}
