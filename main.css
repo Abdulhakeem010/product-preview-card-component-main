@@ -20,20 +20,20 @@ main {
   margin-left: 27%;
   margin-top: 150px;
   height: fit-content;
-  width: 50%;
-  border-radius: 20px;
+  width: fit-content;
+  border-radius: 10px;
 }
 
 .image {
   border: 1px solid blue;
   border-radius: 20px 0px 0px 20px;
   overflow: hidden;
-  width: 100%;
+  width: fit-content;
   height: 500px;
 }
 
 .product-info {
- 
+  width: 35%;
   background-color: hsl(0, 0%, 100%);
   padding-top: 30px;
   padding-inline: 40px;
