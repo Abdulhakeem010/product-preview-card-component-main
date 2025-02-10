@@ -72,6 +72,7 @@ h1 {
 .price {
   margin-bottom: 30px;
   border: 1px solid red;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -103,14 +104,18 @@ button {
   border: none;
 }
 
+
+.btn-style{
+  border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button-text {
   border: 1px solid black;
   margin-left: 10px;
 }
-
-/* .cart-icon {
-  justify-content: center;
-} */
 
 .cart-icon img {
   width: 17px;
