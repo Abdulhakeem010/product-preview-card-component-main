@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap");
- 
- * {
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 body {
   background-color: hsl(30, 38%, 92%);
@@ -43,7 +41,7 @@ main {
 
 h3 {
   font-family: "Montserrat", serif;
-  color:  hsl(228, 12%, 48%);
+  color: hsl(228, 12%, 48%);
   font-weight: 500;
   font-style: normal;
   font-size: 15px;
@@ -53,21 +51,22 @@ h3 {
 
 h1 {
   color: hsl(212, 21%, 14%);
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   font-family: "Fraunces", serif;
   font-weight: 700;
-  font-style: normal;font-size: 2.5rem;
+  font-style: normal;
+  font-size: 2.5rem;
   line-height: 40px;
 }
 
 .product-description {
-  color:  hsl(228, 12%, 48%);
+  color: hsl(228, 12%, 48%);
   margin-bottom: 30px;
   font-size: 14px;
   font-family: "Montserrat", serif;
   font-weight: 500;
   font-style: normal;
-line-height: 25px;
+  line-height: 25px;
 }
 
 .price {
@@ -78,11 +77,12 @@ line-height: 25px;
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-style: normal;
+  font-size: 40px;
 }
 
 .product-price {
   margin-left: 30px;
-  color:  hsl(228, 12%, 48%);
+  color: hsl(228, 12%, 48%);
   text-decoration: line-through;
 }
 
@@ -101,6 +101,6 @@ button {
   border: 1px solid black;
 }
 
-.cart-icon{
+.cart-icon {
   justify-content: center;
 }
