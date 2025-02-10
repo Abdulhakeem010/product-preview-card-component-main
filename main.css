@@ -115,3 +115,7 @@ button {
 .cart-icon img {
   width: 17px;
 }
+
+button:hover {
+  background-color: hsl(158, 36%, 30%);
+}
