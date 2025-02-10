@@ -28,7 +28,7 @@ main {
   border-radius: 20px 0px 0px 20px;
   overflow: hidden;
   width: fit-content;
-  height: 500px;
+  height: 520px;
 }
 
 .product-info {
@@ -117,5 +117,5 @@ button {
 }
 
 button:hover {
-  background-color: hsl(158, 37%, 27%);
+  background-color: hsl(159, 37%, 23%);
 }
