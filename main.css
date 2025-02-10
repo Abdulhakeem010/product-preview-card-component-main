@@ -100,12 +100,18 @@ button {
   font-weight: 700;
   font-style: normal;
   cursor: pointer;
+  border: none;
 }
 
 .button-text {
   border: 1px solid black;
+  margin-left: 10px;
 }
 
 .cart-icon {
   justify-content: center;
+}
+
+.cart-icon img {
+  width: 17px;
 }
