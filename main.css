@@ -72,7 +72,6 @@ h1 {
 
 .price {
   margin-bottom: 30px;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,14 +106,12 @@ button {
 
 
 .btn-style{
-  border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .button-text {
-  border: 1px solid black;
   margin-left: 10px;
 }
 
