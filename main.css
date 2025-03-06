@@ -16,6 +16,9 @@ img {
 
 body {
   background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -25,7 +28,6 @@ main {
   font-style: normal;
   display: flex;
   justify-content: center;
-  /* margin-top: 150px;  */
   height: fit-content;
   width: fit-content;
   border-radius: 20px;
@@ -135,7 +137,7 @@ button:hover {
   }
   main {
     border-radius: 10px;
-    width: min(100%, 330px);
+    width: min(100%, 370px);
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -159,11 +161,14 @@ button:hover {
   .product-description {
     margin-bottom: 15px;
   }
-  /* .nowrap{
-    white-space: nowrap;
-  } */
   .price {
     justify-content: flex-start;
     margin-bottom: 15px;
+  }
+}
+
+@media screen  and (max-width: 375px){
+  main{
+    width: min(100%, 330px);
   }
 }
