@@ -135,7 +135,7 @@ button:hover {
 @media screen and (max-width: 425px) {
   body {
     height: fit-content;
-    padding-block: 30px;
+    padding-block: 25px;
   }
   main {
     border-radius: 10px;
@@ -162,6 +162,7 @@ button:hover {
   h1{
     font-size: 2rem;
     line-height: 35px;
+    margin-bottom: 15px;
   }
   .product-info {
     width: 100%;
@@ -170,9 +171,6 @@ button:hover {
     padding-inline: 20px;
     border-radius: 0px 0px 10px 10px;
     padding-bottom: 20px;
-  }
-  h1 {
-    margin-bottom: 15px;
   }
   .product-description {
     margin-bottom: 15px;
@@ -185,7 +183,10 @@ button:hover {
 
 @media screen and (max-width: 375px) {
   main {
-    width: min(100%, 330px);
+    width: min(100%, 335px);
+  }
+  .image{
+    max-height: 230px;
   }
 }
 
@@ -194,6 +195,19 @@ button:hover {
     width: min(100%, 280px);
   }
   .image{
-    max-height: 230px;
+    max-height: 200px;
   }
+  .product-description {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  h3{
+    font-size: 12px;
+  }
+  h1{
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    line-height: 33px;
+}
+ 
 }
