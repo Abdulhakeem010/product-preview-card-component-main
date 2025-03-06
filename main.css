@@ -214,7 +214,17 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 300px) and (min-aspect-ratio: 7/4) {
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
 body{
+  padding-top: 150px;
 }
 }
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+  body{
+    padding-top: 180px;
+    padding-inline: 30px;
+  }
+
+  
+ 
+  }
