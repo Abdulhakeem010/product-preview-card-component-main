@@ -155,10 +155,10 @@ button:hover {
     height: auto;
     object-fit: cover;
   }
-  h3{
+  h3 {
     font-size: 14px;
   }
-  h1{
+  h1 {
     font-size: 2rem;
     line-height: 35px;
     margin-bottom: 15px;
@@ -184,7 +184,7 @@ button:hover {
   main {
     width: min(100%, 335px);
   }
-  .image{
+  .image {
     max-height: 230px;
   }
 }
@@ -193,20 +193,19 @@ button:hover {
   main {
     width: min(100%, 280px);
   }
-  .image{
+  .image {
     max-height: 200px;
   }
   .product-description {
     font-size: 13px;
     margin-bottom: 10px;
   }
-  h3{
+  h3 {
     font-size: 12px;
   }
-  h1{
+  h1 {
     margin-bottom: 10px;
     font-size: 1.7rem;
     line-height: 33px;
-}
- 
+  }
 }
