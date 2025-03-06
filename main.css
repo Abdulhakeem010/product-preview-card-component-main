@@ -8,31 +8,38 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   background-color: hsl(30, 38%, 92%);
 }
 
 main {
+  border: 1px solid red;
   font-family: "Montserrat", serif;
   font-weight: 500;
   font-style: normal;
   display: flex;
-  margin-left: 27%;
-  margin-top: 150px;
+  justify-content: center;
+  /* margin-top: 150px;  */
   height: fit-content;
   width: fit-content;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .image {
   border-radius: 20px 0px 0px 20px;
   overflow: hidden;
   width: fit-content;
-  height: 520px;
+  height: fit-content;
 }
 
 .product-info {
-  width: 33%;
+  width: 350px;
   background-color: hsl(0, 0%, 100%);
   padding-top: 35px;
   padding-inline: 50px;
@@ -104,11 +111,10 @@ button {
   border: none;
 }
 
-
-.btn-style{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btn-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-text {
@@ -121,4 +127,43 @@ button {
 
 button:hover {
   background-color: hsl(159, 37%, 23%);
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    padding-top: 30px;
+  }
+  main {
+    border-radius: 10px;
+    width: min(100%, 330px);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image {
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    max-height: 330px;
+  }
+  .product-info {
+    width: fit-content;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 25px;
+    padding-inline: 20px;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 20px;
+  }
+  h1 {
+    margin-bottom: 15px;
+  }
+  .product-description {
+    margin-bottom: 15px;
+  }
+  /* .nowrap{
+    white-space: nowrap;
+  } */
+  .price {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
 }
