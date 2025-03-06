@@ -213,3 +213,8 @@ button:hover {
     line-height: 33px;
   }
 }
+
+@media screen and (max-width: 300px) and (min-aspect-ratio: 7/4) {
+body{
+}
+}
