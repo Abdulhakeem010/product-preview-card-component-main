@@ -143,7 +143,6 @@ button:hover {
     flex-direction: column;
   }
   .image {
-    width: 100%;
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
     max-height: 330px;
