@@ -224,7 +224,10 @@ body{
     padding-top: 180px;
     padding-inline: 30px;
   }
+main{
+  border: 1px solid red;
+ 
+}
 
-  
  
   }
