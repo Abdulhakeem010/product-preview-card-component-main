@@ -157,7 +157,7 @@ button:hover {
     object-fit: cover;
   }
   .product-info {
-    width: fit-content;
+    width: 100%;
     background-color: hsl(0, 0%, 100%);
     padding-top: 25px;
     padding-inline: 20px;
@@ -179,5 +179,14 @@ button:hover {
 @media screen and (max-width: 375px) {
   main {
     width: min(100%, 330px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main {
+    width: min(100%, 280px);
+  }
+  .image{
+    max-height: 230px;
   }
 }
