@@ -213,14 +213,14 @@ button:hover {
     line-height: 33px;
   }
 }
-
+/* 
 @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
   body {
     padding-top: 150px;
   }
-}
+} */
 
-/* @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
   body {
     padding-top: 180px;
     padding-inline: 30px;
@@ -250,6 +250,6 @@ button:hover {
     line-height: 35px;
     margin-bottom: 15px;
   }
-} */
+}
 
   
