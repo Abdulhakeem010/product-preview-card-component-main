@@ -131,10 +131,13 @@ button:hover {
   background-color: hsl(159, 37%, 23%);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   body {
-    height: fit-content;
+    height: 100vh;
     padding-block: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   main {
     border-radius: 10px;
