@@ -227,7 +227,7 @@ button:hover {
   }
   main {
     display: flex;
-    height: ;
+    height: fit-content;
   }
   .image {
     max-height: 100%;
