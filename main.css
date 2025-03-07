@@ -190,7 +190,7 @@ button:hover {
 }
 
 @media screen and (max-width: 320px) {
-  body{
+  body {
     padding-block: 20px;
   }
   main {
@@ -215,19 +215,27 @@ button:hover {
 }
 
 @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
-body{
-  padding-top: 150px;
+  body {
+    padding-top: 150px;
+  }
 }
-}
+
 @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
-  body{
+  body {
     padding-top: 180px;
     padding-inline: 30px;
   }
-main{
-  border: 1px solid red;
- 
-}
-
- 
+  main {
+    border: 1px solid red;
   }
+  .image {
+    max-height: 500px;
+  }
+  .product-info {
+    .product-info {
+      width: 200px;
+      padding-top: 35px;
+      padding-inline: 50px;
+    }
+  }
+}
