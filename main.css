@@ -220,13 +220,14 @@ button:hover {
   }
 }
 
-@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+/* @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
   body {
     padding-top: 180px;
     padding-inline: 30px;
   }
   main {
     display: flex;
+    height: ;
   }
   .image {
     max-height: 100%;
@@ -243,6 +244,12 @@ button:hover {
     padding-top: 35px;
     padding-inline: 20px;
   }
-}
+
+  h1{
+    font-size: 2.2rem;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+} */
 
   
